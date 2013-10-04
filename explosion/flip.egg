@@ -1,0 +1,215 @@
+<Comment> {
+  "egg-texture-cards -o flip.egg -fps 20 image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png"
+}
+<Texture> image9 {
+  image9.png
+}
+<Texture> image8 {
+  image8.png
+}
+<Texture> image7 {
+  image7.png
+}
+<Texture> image6 {
+  image6.png
+}
+<Texture> image5 {
+  image5.png
+}
+<Texture> image4 {
+  image4.png
+}
+<Texture> image3 {
+  image3.png
+}
+<Texture> image2 {
+  image2.png
+}
+<Texture> image19 {
+  image19.png
+}
+<Texture> image18 {
+  image18.png
+}
+<Texture> image17 {
+  image17.png
+}
+<Texture> image16 {
+  image16.png
+}
+<Texture> image15 {
+  image15.png
+}
+<Texture> image14 {
+  image14.png
+}
+<Texture> image13 {
+  image13.png
+}
+<Texture> image12 {
+  image12.png
+}
+<Texture> image11 {
+  image11.png
+}
+<Texture> image10 {
+  image10.png
+}
+<Texture> image1 {
+  image1.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 20 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> image1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image6 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image7 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image8 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image9 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image9 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image10 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image10 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image11 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image11 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image12 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image12 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image13 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image13 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image14 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image14 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image15 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image15 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image16 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image16 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image17 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image17 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image18 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image18 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> image19 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { image19 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
